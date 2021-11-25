@@ -219,6 +219,8 @@ class IMCView: UIView {
         
         weightTextField.text = ""
         heightTextField.text = ""
+        
+        calculateButton.isEnabled = false
     }
     
     @objc private func calculate() {
