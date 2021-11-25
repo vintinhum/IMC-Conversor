@@ -11,10 +11,5 @@ protocol Coordinator {
     var navigationController: UINavigationController? { get set }
     
     func start()
-    
-    func goToConverter()
 }
 
-protocol Coordinating {
-    var coordinator: Coordinator? { get set }
-}
